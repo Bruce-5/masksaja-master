@@ -1,0 +1,7 @@
+---
+applications:
+  - name: masksaja
+    memory: 1G
+    instances: 30
+    buildpack: staticfile_buildpack
+    path: ../build.zip
